@@ -1,0 +1,2084 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".ui.home.HomeFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        style="?attr/actionButtonStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clipToPadding="false"
+                        android:focusable="true">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/profile_image"
+                            android:layout_width="66dp"
+                            android:layout_height="66dp"
+                            android:src="@drawable/ruksana"
+                            app:civ_border_color="#CAC5C6"
+                            app:civ_border_width="2dp" />
+
+                        <ImageView
+                            android:id="@+id/cart_badge"
+                            android:layout_width="20dp"
+                            android:layout_height="21dp"
+                            android:layout_gravity="right|end|bottom"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginEnd="-3dp"
+                            android:layout_marginRight="-3dp"
+                            android:background="@drawable/plusstory"
+                            android:gravity="center"
+                            android:padding="1dp"
+
+                            />
+
+                    </FrameLayout>
+
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:gravity="center"
+                        android:text="Ruksana"
+                        android:textColor="@color/textcolor"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:orientation="vertical">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="66dp"
+                        android:layout_height="66dp"
+                        android:src="@drawable/karuna1"
+                        app:civ_border_color="#DE3A5C"
+                        app:civ_border_width="2dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:gravity="center"
+                        android:text="Karuna"
+                        android:textColor="@color/textcolor"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:orientation="vertical">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="66dp"
+                        android:layout_height="66dp"
+                        android:src="@drawable/tamanna"
+                        app:civ_border_color="#DE3A5C"
+                        app:civ_border_width="2dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:gravity="center"
+                        android:text="Tamanna"
+                        android:textColor="@color/textcolor"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:orientation="vertical">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="66dp"
+                        android:layout_height="66dp"
+                        android:src="@drawable/aishwarya1"
+                        app:civ_border_color="#DE3A5C"
+                        app:civ_border_width="2dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:gravity="center"
+                        android:text="Aishwarya"
+                        android:textColor="@color/textcolor"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:orientation="vertical">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="66dp"
+                        android:layout_height="66dp"
+                        android:src="@drawable/ram"
+                        app:civ_border_color="#DE3A5C"
+                        app:civ_border_width="2dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:gravity="center"
+                        android:text="Ram Krishna"
+                        android:textColor="@color/textcolor"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:orientation="vertical">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="66dp"
+                        android:layout_height="66dp"
+                        android:src="@drawable/raju"
+                        app:civ_border_color="#DE3A5C"
+                        app:civ_border_width="2dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:gravity="center"
+                        android:text="Raju"
+                        android:textColor="@color/textcolor"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:orientation="vertical">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+
+                        android:layout_width="66dp"
+                        android:layout_height="66dp"
+                        android:src="@drawable/sanjay1"
+                        app:civ_border_color="#DE3A5C"
+                        app:civ_border_width="2dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:gravity="center"
+                        android:text="Sanjay"
+                        android:textColor="@color/textcolor"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:orientation="vertical">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="66dp"
+                        android:layout_height="66dp"
+                        android:src="@drawable/laxmikant"
+                        app:civ_border_color="#DE3A5C"
+                        app:civ_border_width="2dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:gravity="center"
+                        android:text="Laxmikant"
+                        android:textColor="@color/textcolor"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:orientation="vertical">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="66dp"
+                        android:layout_height="66dp"
+                        android:src="@drawable/hareesh"
+                        app:civ_border_color="#DE3A5C"
+                        app:civ_border_width="2dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:gravity="center"
+                        android:text="Hareesh"
+                        android:textColor="@color/textcolor"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:orientation="vertical">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="66dp"
+                        android:layout_height="66dp"
+                        android:src="@drawable/sai"
+                        app:civ_border_color="#DE3A5C"
+                        app:civ_border_width="2dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:gravity="center"
+                        android:text="Sai"
+                        android:textColor="@color/textcolor"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:orientation="vertical">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="66dp"
+                        android:layout_height="66dp"
+                        android:src="@drawable/aishwarya"
+                        app:civ_border_color="#DE3A5C"
+                        app:civ_border_width="2dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:gravity="center"
+                        android:text="Aishwarya"
+                        android:textColor="@color/textcolor"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:orientation="vertical">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="66dp"
+                        android:layout_height="66dp"
+                        android:src="@drawable/ram"
+                        app:civ_border_color="#DE3A5C"
+                        app:civ_border_width="2dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:gravity="center"
+                        android:text="Ram Krishna"
+                        android:textColor="@color/textcolor"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:orientation="vertical">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="66dp"
+                        android:layout_height="66dp"
+                        android:src="@drawable/raju"
+                        app:civ_border_color="#DE3A5C"
+                        app:civ_border_width="2dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:gravity="center"
+                        android:text="Raju"
+                        android:textColor="@color/textcolor"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:orientation="vertical">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+
+                        android:layout_width="66dp"
+                        android:layout_height="66dp"
+                        android:src="@drawable/sanjay1"
+                        app:civ_border_color="#DE3A5C"
+                        app:civ_border_width="2dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:gravity="center"
+                        android:text="Sanjay"
+                        android:textColor="@color/textcolor"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/statusbarcolor" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="4dp"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/tamanna3"
+                    app:civ_border_color="#2F2F32"
+                    app:civ_border_width="2dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:text="Tamanna"
+                    android:textColor="@color/textcolor"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="210dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="4dp"
+                    android:src="@drawable/more_vertical" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tammana1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:onClick="heartid1"
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#3E3A3A"
+                    android:padding="8dp"
+                    android:src="@drawable/love" />
+
+                <ImageView
+                    android:onClick="commentid1"
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#3E3A3A"
+                    android:padding="8dp"
+                    android:src="@drawable/commenticon" />
+
+                <ImageView
+                    android:onClick="shareid1"
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#3E3A3A"
+                    android:padding="8dp"
+                    android:src="@drawable/sendmsg" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#3E3A3A"
+                    android:gravity="right"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:onClick="saveid1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="180dp"
+                        android:backgroundTint="#3E3A3A"
+                        android:padding="2dp"
+                        android:src="@drawable/save" />
+
+
+                      </LinearLayout>
+                 </LinearLayout>
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text="1,264 likes"
+                    android:layout_marginLeft="6dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/textcolor"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="Cutei Tammanna"
+                    android:layout_marginLeft="6dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/textcolor"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="6dp"
+                    android:text="View all 48 comments"
+                    android:textColor="@color/textcolor"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="6dp"
+                    android:text="18 hours ago"
+                    android:textColor="@color/textcolor"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:background="#FBF8F8"
+android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:orientation="horizontal"
+                    android:elevation="6dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Suggested for you"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:textColor="@color/textcolor"/>
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginLeft="70dp"-->
+<!--                        android:backgroundTint="#3A3535"-->
+<!--                        android:padding="7dp"-->
+<!--                        android:src="@drawable/zoomin" />-->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="See all"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/teal_200"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="130dp"
+                        android:textSize="14sp"
+                        />
+                </LinearLayout>
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:orientation="horizontal">
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="horizontal">-->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="200dp"
+                    android:layout_height="218dp"
+                    android:layout_marginLeft="10dp"
+                    app:cardBackgroundColor="@color/white">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/cross"
+                            android:layout_marginLeft="170dp"
+                            android:layout_marginTop="4dp"
+                            />
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/karuna1"
+                        app:civ_border_color="#837F80"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center_horizontal"
+                        app:civ_border_width="2dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Karuna"
+                        android:textColor="@color/textcolor"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="3dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="New to Instagram"
+                            android:textColor="@color/textcolor"
+                            android:textSize="12sp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="3dp"/>
+                        <TextView
+                            android:id="@+id/followid1"
+                            android:layout_width="90dp"
+                            android:layout_height="25dp"
+                            android:text="Follow"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:layout_marginBottom="10dp"
+                            android:textColor="@color/white"
+                            android:layout_gravity="center_horizontal"
+                            android:background="@drawable/textviewborder"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="200dp"
+                        android:layout_height="218dp"
+                        app:cardBackgroundColor="@color/white"
+                        android:layout_marginLeft="10dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:layout_width="25dp"
+                                android:layout_height="20dp"
+                                android:src="@drawable/cross"
+                                android:layout_marginLeft="170dp"
+                                android:layout_marginTop="4dp"
+                                />
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:src="@drawable/aishwarya1"
+                                app:civ_border_color="#837F80"
+                                android:layout_marginTop="10dp"
+                                android:layout_gravity="center_horizontal"
+                                app:civ_border_width="2dp" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Aishwarya"
+                                android:textColor="@color/textcolor"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="3dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="New to Instagram"
+                                android:textColor="@color/textcolor"
+                                android:textSize="12sp"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="3dp"/>
+                            <TextView
+                                android:id="@+id/followid2"
+                                android:layout_width="90dp"
+                                android:layout_height="25dp"
+                                android:text="Follow"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:layout_marginBottom="7dp"
+                                android:textColor="@color/white"
+                                android:layout_gravity="center_horizontal"
+                                android:background="@drawable/textviewborder"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="200dp"
+                        android:layout_height="218dp"
+                        app:cardBackgroundColor="@color/white"
+                        android:layout_marginLeft="10dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:layout_width="25dp"
+                                android:layout_height="20dp"
+                                android:src="@drawable/cross"
+                                android:layout_marginLeft="170dp"
+                                android:layout_marginTop="4dp"
+                                />
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:src="@drawable/ruksana"
+                                app:civ_border_color="#837F80"
+                                android:layout_marginTop="10dp"
+                                android:layout_gravity="center_horizontal"
+                                app:civ_border_width="2dp" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Ruksana"
+                                android:textColor="@color/textcolor"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="3dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="New to Instagram"
+                                android:textColor="@color/textcolor"
+                                android:textSize="12sp"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="3dp"/>
+                            <TextView
+                                android:id="@+id/followid3"
+                                android:layout_width="90dp"
+                                android:layout_height="25dp"
+                                android:text="Follow"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:layout_marginBottom="7dp"
+                                android:textColor="@color/white"
+                                android:layout_gravity="center_horizontal"
+                                android:background="@drawable/textviewborder"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="200dp"
+                        android:layout_height="218dp"
+                        app:cardBackgroundColor="@color/white"
+                        android:layout_marginLeft="10dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:layout_width="25dp"
+                                android:layout_height="20dp"
+                                android:src="@drawable/cross"
+                                android:layout_marginLeft="170dp"
+                                android:layout_marginTop="4dp"
+                                />
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:src="@drawable/tammana1"
+                                app:civ_border_color="#837F80"
+                                android:layout_marginTop="10dp"
+                                android:layout_gravity="center_horizontal"
+                                app:civ_border_width="2dp" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Tammanna"
+                                android:textColor="@color/textcolor"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="3dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="New to Instagram"
+                                android:textColor="@color/textcolor"
+                                android:textSize="12sp"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="3dp"/>
+                            <TextView
+                                android:id="@+id/followid4"
+                                android:layout_width="90dp"
+                                android:layout_height="25dp"
+                                android:text="Follow"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:layout_marginBottom="7dp"
+                                android:textColor="@color/white"
+                                android:layout_gravity="center_horizontal"
+                                android:background="@drawable/textviewborder"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="200dp"
+                        android:layout_height="218dp"
+                        app:cardBackgroundColor="@color/white"
+                        android:layout_marginLeft="10dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:layout_width="25dp"
+                                android:layout_height="20dp"
+                                android:src="@drawable/cross"
+                                android:layout_marginLeft="170dp"
+                                android:layout_marginTop="4dp"
+                                />
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:src="@drawable/laxmikant"
+                                app:civ_border_color="#837F80"
+                                android:layout_marginTop="10dp"
+                                android:layout_gravity="center_horizontal"
+                                app:civ_border_width="2dp" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="LaxmiKant"
+                                android:textColor="@color/textcolor"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="3dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="New to Instagram"
+                                android:textColor="@color/textcolor"
+                                android:textSize="12sp"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="3dp"/>
+                            <TextView
+                                android:id="@+id/followid5"
+                                android:layout_width="90dp"
+                                android:layout_height="25dp"
+                                android:text="Follow"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:layout_marginBottom="7dp"
+                                android:textColor="@color/white"
+                                android:layout_gravity="center_horizontal"
+                                android:background="@drawable/textviewborder"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="200dp"
+                        android:layout_height="218dp"
+                        app:cardBackgroundColor="@color/white"
+                        android:layout_marginLeft="10dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:layout_width="25dp"
+                                android:layout_height="20dp"
+                                android:src="@drawable/cross"
+                                android:layout_marginLeft="170dp"
+                                android:layout_marginTop="4dp"
+                                />
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:src="@drawable/hareesh"
+                                app:civ_border_color="#837F80"
+                                android:layout_marginTop="10dp"
+                                android:layout_gravity="center_horizontal"
+                                app:civ_border_width="2dp" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Hareesh"
+                                android:textColor="@color/textcolor"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="3dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="New to Instagram"
+                                android:textColor="@color/textcolor"
+                                android:textSize="12sp"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="3dp"/>
+                            <TextView
+                                android:layout_width="90dp"
+                                android:layout_height="25dp"
+                                android:text="Follow"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:layout_marginBottom="7dp"
+                                android:textColor="@color/white"
+                                android:layout_gravity="center_horizontal"
+                                android:background="@drawable/textviewborder"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="200dp"
+                        android:layout_height="218dp"
+                        app:cardBackgroundColor="@color/white"
+                        android:layout_marginLeft="10dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:layout_width="25dp"
+                                android:layout_height="20dp"
+                                android:src="@drawable/cross"
+                                android:layout_marginLeft="170dp"
+                                android:layout_marginTop="4dp"
+                                />
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:src="@drawable/sai"
+                                app:civ_border_color="#837F80"
+                                android:layout_marginTop="10dp"
+                                android:layout_gravity="center_horizontal"
+                                app:civ_border_width="2dp" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sai"
+                                android:textColor="@color/textcolor"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="3dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="New to Instagram"
+                                android:textColor="@color/textcolor"
+                                android:textSize="12sp"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="3dp"/>
+                            <TextView
+                                android:layout_width="90dp"
+                                android:layout_height="25dp"
+                                android:text="Follow"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:layout_marginBottom="7dp"
+                                android:textColor="@color/white"
+                                android:layout_gravity="center_horizontal"
+                                android:background="@drawable/textviewborder"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+        </HorizontalScrollView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="4dp"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ram"
+                    app:civ_border_color="#27282B"
+                    app:civ_border_width="2dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:text="Ram Krishna"
+                    android:textColor="@color/textcolor"
+                    android:textStyle="bold" />
+
+
+                <ImageView
+                    android:id="@+id/imageViewmenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="180dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="4dp"
+                    android:src="@drawable/more_vertical" />
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ram" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#3E3A3A"
+                    android:padding="8dp"
+                    android:src="@drawable/love" />
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#3E3A3A"
+                    android:padding="8dp"
+                    android:src="@drawable/commenticon" />
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#3E3A3A"
+                    android:padding="8dp"
+                    android:src="@drawable/sendmsg" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#3E3A3A"
+                    android:gravity="right"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="180dp"
+                        android:backgroundTint="#3E3A3A"
+                        android:padding="2dp"
+                        android:src="@drawable/save" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text="4,080 likes"
+                    android:layout_marginLeft="6dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/textcolor"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="Ram Krishna Baddula"
+                    android:layout_marginLeft="6dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/textcolor"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="6dp"
+                    android:text="View all 106 comments"
+                    android:textColor="@color/textcolor"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="6dp"
+                    android:text="10 hours ago"
+                    android:textColor="@color/textcolor"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.2dp"
+                    android:background="#939292"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="2dp"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="4dp"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/karuna"
+                    app:civ_border_color="#DE3A5C"
+                    app:civ_border_width="2dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:text="Karuna"
+                    android:textColor="@color/textcolor"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="250dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="8dp"
+                    android:src="@drawable/more_vertical" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/karuna1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#3E3A3A"
+                    android:padding="8dp"
+                    android:src="@drawable/love" />
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#3E3A3A"
+                    android:padding="8dp"
+                    android:src="@drawable/commenticon" />
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#3E3A3A"
+                    android:padding="8dp"
+                    android:src="@drawable/sendmsg" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#3E3A3A"
+                    android:gravity="right"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="175dp"
+                        android:backgroundTint="#3E3A3A"
+                        android:padding="6dp"
+                        android:src="@drawable/save" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text="4,080 likes"
+                    android:layout_marginLeft="6dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/textcolor"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="Karuna"
+                    android:layout_marginLeft="6dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/textcolor"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="6dp"
+                    android:text="View all 106 comments"
+                    android:textColor="@color/textcolor"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="6dp"
+                    android:text="10 hours ago"
+                    android:textColor="@color/textcolor"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.2dp"
+                    android:background="#939292"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="2dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="4dp"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/aishwarya"
+                    app:civ_border_color="#DE3A5C"
+                    app:civ_border_width="2dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:text="Aishwarya"
+                    android:textColor="@color/textcolor"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="180dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="4dp"
+                    android:src="@drawable/more_vertical" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/aishwarya1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#3E3A3A"
+                    android:padding="8dp"
+                    android:src="@drawable/love" />
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#3E3A3A"
+                    android:padding="8dp"
+                    android:src="@drawable/commenticon" />
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#3E3A3A"
+                    android:padding="8dp"
+                    android:src="@drawable/sendmsg" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#3E3A3A"
+                    android:gravity="right"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="200dp"
+                        android:backgroundTint="#3E3A3A"
+                        android:padding="8dp"
+                        android:src="@drawable/save" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text="1,264 likes"
+                    android:layout_marginLeft="6dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/textcolor"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="Aish"
+                    android:layout_marginLeft="6dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/textcolor"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="6dp"
+                    android:text="View all 48 comments"
+                    android:textColor="@color/textcolor"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="6dp"
+                    android:text="22 hours ago"
+                    android:textColor="@color/textcolor"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:background="#FBF8F8"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:orientation="horizontal"
+                    android:elevation="6dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Suggested for you"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:textColor="@color/textcolor"/>
+
+                    <!--                    <ImageView-->
+                    <!--                        android:layout_width="wrap_content"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:layout_marginLeft="70dp"-->
+                    <!--                        android:backgroundTint="#3A3535"-->
+                    <!--                        android:padding="7dp"-->
+                    <!--                        android:src="@drawable/zoomin" />-->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="See all"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/teal_200"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="130dp"
+                        android:textSize="14sp"
+                        />
+                </LinearLayout>
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:orientation="horizontal">
+                        <!--                <LinearLayout-->
+                        <!--                    android:layout_width="match_parent"-->
+                        <!--                    android:layout_height="wrap_content"-->
+                        <!--                    android:orientation="horizontal">-->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="200dp"
+                            android:layout_height="218dp"
+                            android:layout_marginLeft="10dp"
+                            app:cardBackgroundColor="@color/white">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="25dp"
+                                    android:layout_height="20dp"
+                                    android:src="@drawable/cross"
+                                    android:layout_marginLeft="170dp"
+                                    android:layout_marginTop="4dp"
+                                    />
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:src="@drawable/ruksana1"
+                                    app:civ_border_color="#837F80"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_gravity="center_horizontal"
+                                    app:civ_border_width="2dp" />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Ruksana S M"
+                                    android:textColor="@color/textcolor"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginTop="3dp"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="New to Instagram"
+                                    android:textColor="@color/textcolor"
+                                    android:textSize="12sp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginTop="3dp"/>
+                                <TextView
+
+                                    android:layout_width="90dp"
+                                    android:layout_height="25dp"
+                                    android:text="Follow"
+                                    android:layout_marginTop="5dp"
+                                    android:gravity="center"
+                                    android:layout_marginBottom="10dp"
+                                    android:textColor="@color/white"
+                                    android:layout_gravity="center_horizontal"
+                                    android:background="@drawable/textviewborder"/>
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="200dp"
+                            android:layout_height="218dp"
+                            app:cardBackgroundColor="@color/white"
+                            android:layout_marginLeft="10dp">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="25dp"
+                                    android:layout_height="20dp"
+                                    android:src="@drawable/cross"
+                                    android:layout_marginLeft="170dp"
+                                    android:layout_marginTop="4dp"
+                                    />
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:src="@drawable/karuna"
+                                    app:civ_border_color="#837F80"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_gravity="center_horizontal"
+                                    app:civ_border_width="2dp" />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Karuna"
+                                    android:textColor="@color/textcolor"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginTop="3dp"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="New to Instagram"
+                                    android:textColor="@color/textcolor"
+                                    android:textSize="12sp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginTop="3dp"/>
+                                <TextView
+
+                                    android:layout_width="90dp"
+                                    android:layout_height="25dp"
+                                    android:text="Follow"
+                                    android:layout_marginTop="5dp"
+                                    android:gravity="center"
+                                    android:layout_marginBottom="7dp"
+                                    android:textColor="@color/white"
+                                    android:layout_gravity="center_horizontal"
+                                    android:background="@drawable/textviewborder"/>
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="200dp"
+                            android:layout_height="218dp"
+                            app:cardBackgroundColor="@color/white"
+                            android:layout_marginLeft="10dp">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="25dp"
+                                    android:layout_height="20dp"
+                                    android:src="@drawable/cross"
+                                    android:layout_marginLeft="170dp"
+                                    android:layout_marginTop="4dp"
+                                    />
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:src="@drawable/aishwarya1"
+                                    app:civ_border_color="#837F80"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_gravity="center_horizontal"
+                                    app:civ_border_width="2dp" />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Aishwarya"
+                                    android:textColor="@color/textcolor"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginTop="3dp"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="New to Instagram"
+                                    android:textColor="@color/textcolor"
+                                    android:textSize="12sp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginTop="3dp"/>
+                                <TextView
+
+                                    android:layout_width="90dp"
+                                    android:layout_height="25dp"
+                                    android:text="Follow"
+                                    android:layout_marginTop="5dp"
+                                    android:gravity="center"
+                                    android:layout_marginBottom="7dp"
+                                    android:textColor="@color/white"
+                                    android:layout_gravity="center_horizontal"
+                                    android:background="@drawable/textviewborder"/>
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="200dp"
+                            android:layout_height="218dp"
+                            app:cardBackgroundColor="@color/white"
+                            android:layout_marginLeft="10dp">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="25dp"
+                                    android:layout_height="20dp"
+                                    android:src="@drawable/cross"
+                                    android:layout_marginLeft="170dp"
+                                    android:layout_marginTop="4dp"
+                                    />
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:src="@drawable/tammana1"
+                                    app:civ_border_color="#837F80"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_gravity="center_horizontal"
+                                    app:civ_border_width="2dp" />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Tammanna"
+                                    android:textColor="@color/textcolor"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginTop="3dp"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="New to Instagram"
+                                    android:textColor="@color/textcolor"
+                                    android:textSize="12sp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginTop="3dp"/>
+                                <TextView
+
+                                    android:layout_width="90dp"
+                                    android:layout_height="25dp"
+                                    android:text="Follow"
+                                    android:layout_marginTop="5dp"
+                                    android:gravity="center"
+                                    android:layout_marginBottom="7dp"
+                                    android:textColor="@color/white"
+                                    android:layout_gravity="center_horizontal"
+                                    android:background="@drawable/textviewborder"/>
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="200dp"
+                            android:layout_height="218dp"
+                            app:cardBackgroundColor="@color/white"
+                            android:layout_marginLeft="10dp">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="25dp"
+                                    android:layout_height="20dp"
+                                    android:src="@drawable/cross"
+                                    android:layout_marginLeft="170dp"
+                                    android:layout_marginTop="4dp"
+                                    />
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:src="@drawable/laxmikant"
+                                    app:civ_border_color="#837F80"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_gravity="center_horizontal"
+                                    app:civ_border_width="2dp" />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="LaxmiKant"
+                                    android:textColor="@color/textcolor"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginTop="3dp"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="New to Instagram"
+                                    android:textColor="@color/textcolor"
+                                    android:textSize="12sp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginTop="3dp"/>
+                                <TextView
+
+                                    android:layout_width="90dp"
+                                    android:layout_height="25dp"
+                                    android:text="Follow"
+                                    android:layout_marginTop="5dp"
+                                    android:gravity="center"
+                                    android:layout_marginBottom="7dp"
+                                    android:textColor="@color/white"
+                                    android:layout_gravity="center_horizontal"
+                                    android:background="@drawable/textviewborder"/>
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="200dp"
+                            android:layout_height="218dp"
+                            app:cardBackgroundColor="@color/white"
+                            android:layout_marginLeft="10dp">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="25dp"
+                                    android:layout_height="20dp"
+                                    android:src="@drawable/cross"
+                                    android:layout_marginLeft="170dp"
+                                    android:layout_marginTop="4dp"
+                                    />
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:src="@drawable/hareesh"
+                                    app:civ_border_color="#837F80"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_gravity="center_horizontal"
+                                    app:civ_border_width="2dp" />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Hareesh"
+                                    android:textColor="@color/textcolor"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginTop="3dp"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="New to Instagram"
+                                    android:textColor="@color/textcolor"
+                                    android:textSize="12sp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginTop="3dp"/>
+                                <TextView
+                                    android:layout_width="90dp"
+                                    android:layout_height="25dp"
+                                    android:text="Follow"
+                                    android:layout_marginTop="5dp"
+                                    android:gravity="center"
+                                    android:layout_marginBottom="7dp"
+                                    android:textColor="@color/white"
+                                    android:layout_gravity="center_horizontal"
+                                    android:background="@drawable/textviewborder"/>
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="200dp"
+                            android:layout_height="218dp"
+                            app:cardBackgroundColor="@color/white"
+                            android:layout_marginLeft="10dp">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="25dp"
+                                    android:layout_height="20dp"
+                                    android:src="@drawable/cross"
+                                    android:layout_marginLeft="170dp"
+                                    android:layout_marginTop="4dp"
+                                    />
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:src="@drawable/sai"
+                                    app:civ_border_color="#837F80"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_gravity="center_horizontal"
+                                    app:civ_border_width="2dp" />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Sai"
+                                    android:textColor="@color/textcolor"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginTop="3dp"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="New to Instagram"
+                                    android:textColor="@color/textcolor"
+                                    android:textSize="12sp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginTop="3dp"/>
+                                <TextView
+                                    android:layout_width="90dp"
+                                    android:layout_height="25dp"
+                                    android:text="Follow"
+                                    android:layout_marginTop="5dp"
+                                    android:gravity="center"
+                                    android:layout_marginBottom="7dp"
+                                    android:textColor="@color/white"
+                                    android:layout_gravity="center_horizontal"
+                                    android:background="@drawable/textviewborder"/>
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="4dp"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/sanjay1"
+                    app:civ_border_color="#2F2F32"
+                    app:civ_border_width="2dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:text="Sanjay"
+                    android:textColor="@color/textcolor"
+                    android:textStyle="bold" />
+
+                <ImageView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="210dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="4dp"
+                    android:src="@drawable/more_vertical" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/sanjay1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:onClick="heartid1"
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#3E3A3A"
+                    android:padding="8dp"
+                    android:src="@drawable/love" />
+
+                <ImageView
+                    android:onClick="commentid1"
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#3E3A3A"
+                    android:padding="8dp"
+                    android:src="@drawable/commenticon" />
+
+                <ImageView
+                    android:onClick="shareid1"
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#3E3A3A"
+                    android:padding="8dp"
+                    android:src="@drawable/sendmsg" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#3E3A3A"
+                    android:gravity="right"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:onClick="saveid1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="180dp"
+                        android:backgroundTint="#3E3A3A"
+                        android:padding="2dp"
+                        android:src="@drawable/save" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text="1,264 likes"
+                    android:layout_marginLeft="6dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/textcolor"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="Sanjay"
+                    android:layout_marginLeft="6dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/textcolor"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="6dp"
+                    android:text="View all 48 comments"
+                    android:textColor="@color/textcolor"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="6dp"
+                    android:text="19 hours ago"
+                    android:textColor="@color/textcolor"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.2dp"
+                    android:background="#939292"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="2dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="4dp"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/raju"
+                    app:civ_border_color="#2F2F32"
+                    app:civ_border_width="2dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:text="Raju"
+                    android:textColor="@color/textcolor"
+                    android:textStyle="bold" />
+
+                <ImageView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="210dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="4dp"
+                    android:src="@drawable/more_vertical" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/raju" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:onClick="heartid1"
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#3E3A3A"
+                    android:padding="8dp"
+                    android:src="@drawable/love" />
+
+                <ImageView
+                    android:onClick="commentid1"
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#3E3A3A"
+                    android:padding="8dp"
+                    android:src="@drawable/commenticon" />
+
+                <ImageView
+                    android:onClick="shareid1"
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#3E3A3A"
+                    android:padding="8dp"
+                    android:src="@drawable/sendmsg" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#3E3A3A"
+                    android:gravity="right"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:onClick="saveid1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="180dp"
+                        android:backgroundTint="#3E3A3A"
+                        android:padding="2dp"
+                        android:src="@drawable/save" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text="1,264 likes"
+                    android:layout_marginLeft="6dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/textcolor"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="Raju"
+                    android:layout_marginLeft="6dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/textcolor"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="6dp"
+                    android:text="View all 48 comments"
+                    android:textColor="@color/textcolor"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="6dp"
+                    android:text="18 hours ago"
+                    android:textColor="@color/textcolor"/>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

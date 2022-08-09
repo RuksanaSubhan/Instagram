@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/RuksanaSMundaganur/AndroidStudioProjects/Instagram/app/src/main/res/drawable/badge_file.xml" value="0.1135" />
+        <entry key="..\:/Users/RuksanaSMundaganur/AndroidStudioProjects/Instagram/app/src/main/res/drawable/dialog1_bg.xml" value="0.1105" />
+        <entry key="..\:/Users/RuksanaSMundaganur/AndroidStudioProjects/Instagram/app/src/main/res/drawable/dialog2_bg.xml" value="0.1105" />
+        <entry key="..\:/Users/RuksanaSMundaganur/AndroidStudioProjects/Instagram/app/src/main/res/drawable/dialog_bg.xml" value="0.1105" />
+        <entry key="..\:/Users/RuksanaSMundaganur/AndroidStudioProjects/Instagram/app/src/main/res/drawable/follow_bg.xml" value="0.112" />
+        <entry key="..\:/Users/RuksanaSMundaganur/AndroidStudioProjects/Instagram/app/src/main/res/drawable/radius.xml" value="0.1105" />
+        <entry key="..\:/Users/RuksanaSMundaganur/AndroidStudioProjects/Instagram/app/src/main/res/drawable/radius2.xml" value="0.1105" />
+        <entry key="..\:/Users/RuksanaSMundaganur/AndroidStudioProjects/Instagram/app/src/main/res/drawable/textviewborder.xml" value="0.1345" />
+        <entry key="..\:/Users/RuksanaSMundaganur/AndroidStudioProjects/Instagram/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/RuksanaSMundaganur/AndroidStudioProjects/Instagram/app/src/main/res/layout/bottom1_layout.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/RuksanaSMundaganur/AndroidStudioProjects/Instagram/app/src/main/res/layout/bottom2_layout.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/RuksanaSMundaganur/AndroidStudioProjects/Instagram/app/src/main/res/layout/bottom_layout.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/RuksanaSMundaganur/AndroidStudioProjects/Instagram/app/src/main/res/layout/fragment_1.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/RuksanaSMundaganur/AndroidStudioProjects/Instagram/app/src/main/res/layout/fragment_2.xml" value="0.1526293287729799" />
+        <entry key="..\:/Users/RuksanaSMundaganur/AndroidStudioProjects/Instagram/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Users/RuksanaSMundaganur/AndroidStudioProjects/Instagram/app/src/main/res/layout/fragment_notifications.xml" value="0.2" />
+        <entry key="..\:/Users/RuksanaSMundaganur/AndroidStudioProjects/Instagram/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2" />
+        <entry key="..\:/Users/RuksanaSMundaganur/AndroidStudioProjects/Instagram/app/src/main/res/menu/menu_instagram.xml" value="0.1633176571184267" />
+        <entry key="..\:/Users/RuksanaSMundaganur/AndroidStudioProjects/Instagram/app/src/main/res/menu/menu_post.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
